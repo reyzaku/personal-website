@@ -1,9 +1,12 @@
-import MainRouter from "./MainRouter";
+import Navbar from "./component/global-component/Navbar";
 import Homepage from "./pages/Homepage";
 
 function App() {
   return (
-    <Homepage/>
+    <div className="relative">
+
+      <Homepage/>
+    </div>
   );
 }
 
