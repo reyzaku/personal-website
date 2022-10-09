@@ -1,12 +1,14 @@
 import React from 'react';
-import Hero from '../component/hero/Hero';
-import Introduction from '../component/intro/Introduction';
+import Hero from '../component/homepage/Hero';
+import Introduction from '../component/homepage/Introduction';
+import Projects from '../component/homepage/Projects';
 
 const Homepage = () => {
 	return (
-		<div>
+		<div className='relative'>
             <Hero/>
             <Introduction/>
+            <Projects/>
         </div>
 	);
 };
