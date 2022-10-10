@@ -18,5 +18,5 @@ module.exports = {
       'largerDevice': "1500px"
     },
   },
-  plugins: []
+  plugins: [require("daisyui")]
 }

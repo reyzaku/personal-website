@@ -1,5 +1,5 @@
 import React from 'react';
-import arema from '../media/Arema.png';
+import arema from '../../media/Arema.png';
 
 const ProjectCard = () => {
 	return (

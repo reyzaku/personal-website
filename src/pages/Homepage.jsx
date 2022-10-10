@@ -11,6 +11,8 @@ const Homepage = () => {
             <Hero/>
             <Introduction/>
             <Projects/>
+            <Introduction/>
+
         </div>
 	);
 };
