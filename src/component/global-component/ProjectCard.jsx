@@ -4,7 +4,7 @@ import arema from '../media/Arema.png';
 const ProjectCard = () => {
 	return (
 		<div className="flex justify-start gap-32 mb-72 items-center">
-			<img src={arema} className="w-[500px] h-[500px] object-cover" />
+			<img src={arema} alt="tumbnail" className="w-[500px] h-[500px] object-cover" />
 			<div className="flex flex-col gap-4">
 				<h4 className="text-yellow-500 font-poppins text-xl">CASE STUDY</h4>
 				<h3 className="text-zinc-900 text-5xl font-bebas">

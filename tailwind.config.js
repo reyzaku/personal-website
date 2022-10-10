@@ -10,6 +10,13 @@ module.exports = {
         'bebas': ['Bebas Neue', 'cursive']
       },
     },
+    screens: {
+      'phone': '320px',
+      'tablet': '768px',
+      'laptop': '1024px',
+      'desktop': '1370px',
+      'largerDevice': "1500px"
+    },
   },
-  plugins: [],
+  plugins: []
 }

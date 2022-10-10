@@ -7,7 +7,7 @@ import Projects from '../component/homepage/Projects';
 const Homepage = () => {
 	return (
 		<div>
-                  <Navbar/>
+            <Navbar/>
             <Hero/>
             <Introduction/>
             <Projects/>

@@ -8,7 +8,6 @@ const Projects = () => {
             <ProjectCard/>
             <ProjectCard/>
             <ProjectCard/>
-
         </div>
     )
 }
