@@ -1,29 +1,58 @@
 import React from 'react';
+import Bootstrap from '../media/bootstrap.png'
+import ReactLogo from '../media/react.png'
+import Redux from '../media/redux.png'
+import Tailwind from '../media/tailwind.png'
+import Wordpress from '../media/wordpress.png'
+import Elementor from '../media/elementor.webp'
+import Figma from '../media/figma.png'
+import Photoshop from '../media/photoshop.png'
 
 const Technology = () => {
+	const TechnologyArray = [
+		{
+			name: 'React',
+			image: ReactLogo,
+		},
+		{
+			name: 'Redux',
+			image: Redux,
+		},
+		{
+			name: 'Tailwind CSS',
+			image: Tailwind,
+		},
+		{
+			name: 'Bootstrap',
+			image: Bootstrap,
+		},
+		{
+			name: 'Wordpress',
+			image: Wordpress,
+		},
+		{
+			name: 'Elementor',
+			image: Elementor,
+		},
+		{
+			name: 'Figma',
+			image: Figma,
+		},
+		{
+			name: 'Photoshop',
+			image: Photoshop,
+		},
+	];
+
 	return (
 		<div className="flex flex-col gap-8">
 			<h3 className="font-bebas text-2xl">Technology i can work with</h3>
-			<div className="flex flex-row justify-start gap-8">
-				<h4
-					className="text-center py-8 px-8 border border-zinc-300 tooltip"
-					data-tip="React JS"
-				>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						strokeWidth={1.5}
-						stroke="currentColor"
-						className="w-6 h-6 text-center transition ease-in-out hover:text-yellow-500"
-					>
-						<path
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18"
-						/>
-					</svg>
-				</h4>
+			<div className="flex flex-row justify-start gap-8 flex-wrap">
+				{TechnologyArray.map((item, index) => (
+					<div className='w-16 h-16 tooltip' data-tip={item.name} key={index + 1}>
+						<img src={item.image} alt="" className="object-cover"/>
+					</div>
+				))}
 			</div>
 		</div>
 	);

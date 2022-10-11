@@ -10,7 +10,8 @@ const WorkExperience = () => {
 				<div className="flex gap-4 text-sm text-zinc-400">
 					<p>March 2022</p> |<p>Graphic Designer</p>
 				</div>
-				<li>Creating UI for website</li>
+				<li>Designing 20 Instagram Post for 1 Month</li>
+				<li>Designing 6 Instagram Story for 1 Month</li>
 			</div>
 
 			<div className="flex flex-col gap-4">
@@ -19,6 +20,8 @@ const WorkExperience = () => {
 					<p>March 2022 - November 2022</p> |<p>UI/UX Designer</p>
 				</div>
 				<li>Creating UI for website</li>
+				<li>Managing all company design needed</li>
+				<li>Creating Mockup using Wordpress Elementor</li>
 			</div>
 
 			<div className="flex flex-col gap-4">
