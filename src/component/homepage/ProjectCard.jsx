@@ -1,20 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import arema from '../media/Arema.png';
+
 
 const ProjectCard = (props) => {
 
 	return (
 		<div className="flex justify-start gap-32 mb-72 items-center">
 			<img
-				src={arema}
+				src={props.image}
 				alt="tumbnail"
 				className="w-[500px] h-[500px] object-cover"
 			/>
 			<div className="flex flex-col gap-4">
-				<h4 className="text-yellow-500 font-poppins text-xl">CASE STUDY</h4>
 				<h3 className="text-zinc-900 text-5xl font-bebas">
-					How to Make me Milionaire
+					{props.title}
 				</h3>
 				<h3 className="text-zinc-500 text-base font-light font-poppins leading-8">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis

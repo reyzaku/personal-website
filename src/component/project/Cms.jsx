@@ -1,11 +1,14 @@
 import React from 'react';
 import ProjectBody from './ProjectBody';
 import ProjectHeader from './ProjectHeader';
+import cms1 from './media/cms1.png'
+import cms2 from './media/cms2.png'
+import cms3 from './media/cms3.jpeg'
 
 const Cms = () => {
 	return (
 		<div>
-			<ProjectHeader title="CMS Web app Project" />
+			<ProjectHeader title="Creating Block type CMS like Dev.to with React And Tailwind CSS" />
 			<div className="flex flex-col justify-center mx-96 py-32 gap-48">
 				<ProjectBody>
 					<div className="flex flex-col gap-8">
@@ -61,8 +64,13 @@ const Cms = () => {
 					</div>
 
 					<div className="flex flex-col gap-8">
-						<h3 className="font-bebas text-5xl">Project Preview</h3>
-						<img src="" alt="" className="rounded-xl w-full" />
+						<h3 className="font-bebas text-5xl mb-32">Project Preview</h3>
+						<p className='font-bebas text-3xl'>Homepage</p>
+						<img src={cms2} alt="" className="rounded-xl w-full mb-32" />
+						<p className='font-bebas text-3xl'>Create Post Page</p>
+						<img src={cms3} alt="" className="rounded-xl w-full mb-32" />
+						<p className='font-bebas text-3xl'>Article Page</p>
+						<img src={cms1} alt="" className="rounded-xl w-full mb-32" />
 					</div>
 				</ProjectBody>
 			</div>
