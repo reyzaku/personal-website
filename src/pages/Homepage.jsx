@@ -12,7 +12,6 @@ const Homepage = () => {
             <Introduction/>
             <Projects/>
             <Introduction/>
-
         </div>
 	);
 };
