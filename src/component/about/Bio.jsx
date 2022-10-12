@@ -9,7 +9,7 @@ import WorkExperience from './bio/WorkExperience';
 const Bio = () => {
 	return (
 		<div className="font-poppins w-full h-full py-52 bg-white pt-30 relative text-zinc-900">
-			<div className="flex flex-col justify-center mx-96 gap-48">
+			<div className="flex flex-col justify-center desktop:mx-72 laptop:mx-64 gap-48">
 				<Intro />
 				<WorkExperience />
 				<Education />

@@ -9,7 +9,7 @@ const Cms = () => {
 	return (
 		<div>
 			<ProjectHeader title="Creating Block type CMS like Dev.to with React And Tailwind CSS (On Going)" />
-			<div className="flex flex-col justify-center mx-96 py-32 gap-48">
+			<div className="flex flex-col justify-center laptop:mx-72 desktop:mx-96 py-32 gap-48">
 				<ProjectBody>
 					<div className="flex flex-col gap-8">
 						<div className="flex flex-row justify-evenly gap-8 mb-16 font-bebas">
@@ -51,13 +51,13 @@ const Cms = () => {
 					</div>
 
 					<div className="flex flex-col gap-8 mb-32">
-						<div className="flex flex-row justify-evenly gap-8">
-							<div className="flex-1 flex flex-col py-8 border-r border-zinc-300">
+						<div className="flex laptop:flex-col desktop:flex-row justify-evenly gap-8">
+							<div className="flex-1 flex flex-col py-8 laptop:border-b desktop:border-r desktop:border-b-0 border-zinc-300">
 								<h4 className="font-bebas mb-4">My Roles</h4>
 								<li className="decoration-none">UI/UX Designer</li>
 								<li>Front End Developer</li>
 							</div>
-							<div className="flex-1 py-8 border-r border-zinc-300">
+							<div className="flex-1 py-8 laptop:border-b desktop:border-r desktop:border-b-0 border-zinc-300">
 								<h4 className="font-bebas mb-4">Created with</h4>
 								<li className="decoration-none">React JS</li>
 								<li className="decoration-none">Redux</li>

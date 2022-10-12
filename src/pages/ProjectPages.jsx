@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import Error from '../component/global-component/Error';
+import Footer from '../component/global-component/Footer';
 import Navbar from '../component/global-component/Navbar';
 import Cms from '../component/project/Cms';
 import Ecommerce from '../component/project/Ecommerce';
@@ -24,6 +25,7 @@ const ProjectPages = () => {
         <div>
             <Navbar/>
             <Main/>
+            <Footer/>
         </div>
     )
 }
