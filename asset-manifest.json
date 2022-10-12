@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.5216e646.css",
+    "main.js": "/personal-website/static/js/main.35127e58.js",
+    "static/media/SitrenApp.png": "/personal-website/static/media/SitrenApp.ffab0b9ed35a9c771806.png",
+    "static/media/Arema.png": "/personal-website/static/media/Arema.9493c695995d9b5f5e0e.png",
+    "static/media/OnlineCourse.png": "/personal-website/static/media/OnlineCourse.432114393ee936e9764c.png",
+    "static/media/ecommerce1.png": "/personal-website/static/media/ecommerce1.5cd6b95e7a17900bed51.png",
+    "static/media/SocialMedia.png": "/personal-website/static/media/SocialMedia.5b7d4794d35b4bb6f037.png",
+    "static/media/Recipe.png": "/personal-website/static/media/Recipe.7867eb15931c60c9edd8.png",
+    "static/media/Rent.png": "/personal-website/static/media/Rent.bbf0bfbd8e42fda4d31d.png",
+    "static/media/Steam.png": "/personal-website/static/media/Steam.9e7aee08b89965af9811.png",
+    "static/media/SitrenWeb.png": "/personal-website/static/media/SitrenWeb.1d7e98d7726034adefc7.png",
+    "static/media/cms2.png": "/personal-website/static/media/cms2.ff19877b14e728b855de.png",
+    "static/media/Jnius.png": "/personal-website/static/media/Jnius.f7cf2223f710c14f0374.png",
+    "static/media/Podcast.png": "/personal-website/static/media/Podcast.99528f9afb737349beca.png",
+    "static/media/LandingPage.png": "/personal-website/static/media/LandingPage.a96b4df97ccfcf6c0bb9.png",
+    "static/media/cms1.png": "/personal-website/static/media/cms1.ecf271c267fcb76517e0.png",
+    "static/media/Coffee.png": "/personal-website/static/media/Coffee.3a64004f5844cde75924.png",
+    "static/media/ecommerce2.png": "/personal-website/static/media/ecommerce2.8242a5d91a4486315f71.png",
+    "static/media/Travel.png": "/personal-website/static/media/Travel.332c13a998c683b92f15.png",
+    "static/media/JobAgency.png": "/personal-website/static/media/JobAgency.3a07796f550e51c6fcfb.png",
+    "static/media/ecommerce3.png": "/personal-website/static/media/ecommerce3.8ff662a4c52205f99ed6.png",
+    "static/media/react.png": "/personal-website/static/media/react.81ed438b18e24116794d.png",
+    "static/media/cms3.jpeg": "/personal-website/static/media/cms3.a488249661061de93edd.jpeg",
+    "static/media/me.jpg": "/personal-website/static/media/me.2ffa8cc14ef118fd1b2c.jpg",
+    "static/media/photoshop.png": "/personal-website/static/media/photoshop.3e6972a59e4ecc44e53e.png",
+    "static/media/bootstrap.png": "/personal-website/static/media/bootstrap.c5dedb5348b058d36661.png",
+    "static/media/figma.png": "/personal-website/static/media/figma.a5986003dbdc6d91dbc5.png",
+    "static/media/wordpress.png": "/personal-website/static/media/wordpress.9fa09f4e51c34ddc63d1.png",
+    "static/media/elementor.webp": "/personal-website/static/media/elementor.0c882e08580fb4fe3927.webp",
+    "index.html": "/personal-website/index.html",
+    "main.5216e646.css.map": "/personal-website/static/css/main.5216e646.css.map",
+    "main.35127e58.js.map": "/personal-website/static/js/main.35127e58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5216e646.css",
+    "static/js/main.35127e58.js"
+  ]
+}
