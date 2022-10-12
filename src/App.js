@@ -1,4 +1,5 @@
 import MainRouter from './MainRouter';
+import Error from './pages/404Error';
 
 function App() {
 	return (
@@ -7,7 +8,7 @@ function App() {
 				<MainRouter />
 			</div>
 			<div className="phone:block tablet:block laptop:hidden desktop:hidden largerDevice:hidden">
-				Under Construction
+				<Error/>
 			</div>
 		</div>
 	);
