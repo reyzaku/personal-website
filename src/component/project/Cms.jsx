@@ -1,14 +1,14 @@
 import React from 'react';
 import ProjectBody from './ProjectBody';
 import ProjectHeader from './ProjectHeader';
-import cms1 from './media/cms1.png'
-import cms2 from './media/cms2.png'
-import cms3 from './media/cms3.jpeg'
+import cms1 from './media/cms1.png';
+import cms2 from './media/cms2.png';
+import cms3 from './media/cms3.jpeg';
 
 const Cms = () => {
 	return (
 		<div>
-			<ProjectHeader title="Creating Block type CMS like Dev.to with React And Tailwind CSS" />
+			<ProjectHeader title="Creating Block type CMS like Dev.to with React And Tailwind CSS (On Going)" />
 			<div className="flex flex-col justify-center mx-96 py-32 gap-48">
 				<ProjectBody>
 					<div className="flex flex-col gap-8">
@@ -33,13 +33,20 @@ const Cms = () => {
 						</div>
 						<h3 className="font-bebas text-5xl">Project Overview</h3>
 						<p className="leading-10">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ad
-							mollitia consequatur, eligendi, distinctio perferendis nostrum
-							reiciendis impedit voluptas quas dolores saepe consectetur
-							quibusdam corporis cum. Deleniti ut, et minima optio provident nam
-							cumque sequi voluptates distinctio est, necessitatibus labore
-							laboriosam ad. Mollitia sapiente voluptas odio porro qui at
-							quaerat!
+							A few moments ago I like making a website using WordPress because
+							of its simplicity and ease to use for making block-type websites
+							and content. and after I graduate and know how to code, I have
+							this idea to make the same app like that, a CMS App that doesn't
+							use WYSIWYG form but rather uses block typewriting. Because of
+							that idea, I began my research by looking for the same app that
+							has that feature. I find out that Medium.com, Dev.to, and
+							WordPress have these features. so took their inspiration and ask
+							one of my friends who have back-end skill to collaborate with me
+							to create this project. This project began in September and we
+							plan to make a fully polished website. Currently, this website is
+							still on Version 1 and only has Authentication and Creating
+							Article features. We are making sure to keep updating this app to
+							become Dev.to clone.
 						</p>
 					</div>
 
@@ -65,11 +72,11 @@ const Cms = () => {
 
 					<div className="flex flex-col gap-8">
 						<h3 className="font-bebas text-5xl mb-32">Project Preview</h3>
-						<p className='font-bebas text-3xl'>Homepage</p>
+						<p className="font-bebas text-3xl">Homepage</p>
 						<img src={cms2} alt="" className="rounded-xl w-full mb-32" />
-						<p className='font-bebas text-3xl'>Create Post Page</p>
+						<p className="font-bebas text-3xl">Create Post Page</p>
 						<img src={cms3} alt="" className="rounded-xl w-full mb-32" />
-						<p className='font-bebas text-3xl'>Article Page</p>
+						<p className="font-bebas text-3xl">Article Page</p>
 						<img src={cms1} alt="" className="rounded-xl w-full mb-32" />
 					</div>
 				</ProjectBody>
