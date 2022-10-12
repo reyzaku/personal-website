@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 const ProjectCard = (props) => {
 
 	return (
-		<div className="flex justify-start gap-32 mb-72 items-center">
+		<div className="flex laptop:flex-col desktop:flex-row justify-start gap-32 mb-72 items-center">
 			<img
 				src={props.image}
 				alt="tumbnail"
-				className="w-[500px] h-[500px] object-cover"
+				className="w-[500px] h-[500px] laptop:w-[400px] laptop:h-[400px] object-cover"
 			/>
 			<div className="flex flex-col gap-4">
 				<h3 className="text-zinc-900 text-5xl font-bebas">

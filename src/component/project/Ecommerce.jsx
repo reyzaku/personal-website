@@ -9,7 +9,7 @@ const Ecommerce = () => {
 	return (
 		<div>
 			<ProjectHeader title="Creating Full Stack E-Commerce web With MERN" />
-			<div className="flex flex-col justify-center mx-96 py-32 gap-48">
+			<div className="flex flex-col justify-center laptop:mx-72 desktop:mx-96 mx-96 py-32 gap-48">
 				<ProjectBody>
 					<div className="flex flex-col gap-8">
 						<div className="flex flex-row justify-evenly gap-8 mb-16 font-bebas">
@@ -42,17 +42,17 @@ const Ecommerce = () => {
 							finishing making the app I continue to test the app to know if the
 							app has some flaw or a bug.
 						</p>
-						<p>I Also implementing Midtrans API for the payment method that user gonna use when they make any transactions.</p>
+						<p className="leading-10">I Also implementing Midtrans API for the payment method that user gonna use when they make any transactions.</p>
 					</div>
 
 					<div className="flex flex-col gap-8 mb-32">
-						<div className="flex flex-row justify-evenly gap-8">
-							<div className="flex-1 flex flex-col py-8 border-r border-zinc-300">
+						<div className="flex laptop:flex-col desktop:flex-row justify-evenly gap-8">
+							<div className="flex-1 flex flex-col py-8 laptop:border-b desktop:border-r desktop:border-b-0 border-zinc-300">
 								<h4 className="font-bebas mb-4">My Roles</h4>
 								<li className="decoration-none">UI/UX Designer</li>
 								<li>Fullstack Developer</li>
 							</div>
-							<div className="flex-1 py-8 border-r border-zinc-300">
+							<div className="flex-1 py-8 laptop:border-b desktop:border-r desktop:border-b-0 border-zinc-300">
 								<h4 className="font-bebas mb-4">Created with</h4>
 								<li className="decoration-none">MERN</li>
 								<li className="decoration-none">Redux Toolkit</li>

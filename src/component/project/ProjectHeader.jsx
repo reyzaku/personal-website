@@ -8,7 +8,7 @@ const ProjectHeader = (props) => {
 				<h2 className="text-xl font-bebas tracking-wider text-white">
 					rafienzy.com
 				</h2>
-				<h2 className="text-9xl font-bebas text-yellow-500">
+				<h2 className="laptop:text-6xl desktop:text-8xl font-bebas text-yellow-500">
 					{props.title}
 				</h2>
 			</div>
